@@ -3,7 +3,6 @@ import random
 import time
 import sys
 
-
 md=subprocess.Popen(['mkdir pics'],shell=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
 
 while True:
