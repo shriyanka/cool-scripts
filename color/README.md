@@ -38,7 +38,7 @@ If you want to change the text color of "Home" in the list you have to add {{ re
 <li role="presentation" ><a href="#" class="navigation" {{ request.purple_text_text_lighten_4 }}>Home</a></li>
 ```
 
-Note that we have used _purple_lighten_2_ for changing background and _purple_text_text_lighten_4_ for changing the Text color. So if you want to change the text color use the tag with __text__ in it other wise use the other one.
+Note that we have used  _purple_lighten_2_  for changing background and  _purple_text_text_lighten_4_  for changing the Text color. So if you want to change the text color use the tag with  __text__  in it other wise use the other one.
 
 If you find any bug feel free to create a PR 
 
