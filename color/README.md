@@ -6,7 +6,11 @@ Meet SetColorMiddleware of color that easily helps you to set the html tag color
 
 # How to use it
 
-suppose you have a following HTML snippet using bootsrap framework
+Download the zip file and place it in your django-project
+
+add 'color' to your INSTALLED_APPS and 'color.middleware.SetColorMiddleware' in your MIDDLEWARE_CLASSES
+
+Now, suppose you have a following HTML snippet using bootsrap framework
 
 <div class="container-fluid">
 	<nav class="navbar navbar-default navbar-fixed-top">
