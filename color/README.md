@@ -42,4 +42,5 @@ Note that we have used purple_lighten_2 for changing background and purple_text_
 
 If you find any bug feel free to create a PR 
 
-Special thanks to Materialize framework for the color codes. I have used it in my script. For further info visit http://materializecss.com/color.html
+Special thanks to Materialize framework for the color codes. I have used it in my script. 
+Use Newcolor file for color tags and for corresponding color palettes visit http://materializecss.com/color.html
