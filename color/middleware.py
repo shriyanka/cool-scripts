@@ -523,3 +523,4 @@ class SetColorMiddleware(object):
         request.white_text="style=color:#FFFFFF!important;"
         request.transparent="style=background-color:transparent!important;"
         request.transparent_text="style=color:transparent!important;"
+        
