@@ -22,7 +22,7 @@ def dict2xml(**kwargs):
     
     phone = kwargs.pop("delivery_tel")
 
-    xml_dict = OrderedDict({    
+    xml_dict = OrderedDict({ 
         "Customer":
         {   
             "CUSTCD": kwargs.pop("user_id")
@@ -195,7 +195,7 @@ dict_sample = {
 
 
 xml = dict2xml(**dict_sample)
-#print xml
+print xml
 
 obj_cre = {}
 obj_cre["clientIde"] = "DOTZOT";
