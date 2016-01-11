@@ -198,7 +198,7 @@ xml = dict2xml(**dict_sample)
 print xml
 
 obj_cre = {}
-obj_cre["clientIde"] = "DOTZOT";
+obj_cre["clientId"] = "DOTZOT";
 obj_cre["userName"] = "dztuser";
 obj_cre["password"] = "dotzot@2013";
 
