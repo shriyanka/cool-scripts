@@ -1,4 +1,4 @@
-import dicttoxml
+import dicttoxml, xmltodict
 from collections import OrderedDict
 import requests
 
@@ -22,7 +22,7 @@ def dict2xml(**kwargs):
     
     phone = kwargs.pop("delivery_tel")
 
-    xml_dict = OrderedDict({ 
+    xml_dict = OrderedDict({
         "Customer":
         {   
             "CUSTCD": kwargs.pop("user_id")
@@ -59,7 +59,11 @@ def dict2xml(**kwargs):
     })
     return dicttoxml.dicttoxml(xml_dict,attr_type=False, custom_root="NewDataSet")
 
-
+def xml2dict(xml=''):
+    params = OrderedDict()
+    params = xmltodict.parse(xml)
+    return params
+    
 
 dict_sample = {
     "_id" : "568ff88609959d2e380bf43e",
@@ -195,14 +199,20 @@ dict_sample = {
 
 
 xml = dict2xml(**dict_sample)
-print xml
+#print xml
 
-obj_cre = {}
-obj_cre["clientIde"] = "DOTZOT";
-obj_cre["userName"] = "dztuser";
-obj_cre["password"] = "dotzot@2013";
+#obj_cre = {}
+#obj_cre["clientId"] = "DOTZOT";
+#obj_cre["userName"] = "dztuser";
+#obj_cre["password"] = "dotzot@2013";
 
-url = "http://webxpress.cloudapp.net/DMS_DZT_TEST/services/Cust_WS_Ver2.asmx?WSDL"
-headers = {'Content-Type': 'application/xml'}
-r = requests.post(url, params=obj_cre, data =xml, headers=headers)
-print r.content
+#url = "http://webxpress.cloudapp.net/DMS_DZT_TEST/services/Cust_WS_Ver2.asmx?WSDL&op=PushOrderData_WalkInVendors"
+#headers = {'Content-Type': 'application/xml'}
+#resp = requests.post(url, params=obj_cre, data =xml, headers=headers,)
+#print resp.content
+
+# Suppose we get the resp back as xml so converting it back to dictionary
+
+resp = xml
+params = xml2dict(resp) 
+print params
