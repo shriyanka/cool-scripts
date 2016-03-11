@@ -14,4 +14,7 @@ These scripts are mainly to explore and get hand on using various Python-APIs an
 # Warning
 There might exist some possibilities that my code will require some changes according to your system requirements or configuration to work on your upfront. Please change that accordingly and if you can create a general code that serves everyone, please do create a PR. Thanks :)
 
+# Cool Blog Stuff ?
+If you are looking for some cool Blog Posts around Python to plug and play for; then find the links in Blog.txt file above. Although those are not mine :D
+
 # Repo created on 25 Nov 2015 : 12:06 am 
