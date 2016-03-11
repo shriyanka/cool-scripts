@@ -1,0 +1,5 @@
+#Some Useful and cool blogposts:
+
+1) Converting .mp4 to .mp3 via Python - http://andyp123.blogspot.in/2013/01/python-script-to-convert-mp4-video-to.html
+
+[ Will keep updating more :) ] 
