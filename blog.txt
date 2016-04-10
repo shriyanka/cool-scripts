@@ -1,5 +1,9 @@
-#Some Useful and cool blogposts:
+#Some Useful and cool blogposts (Also links to some internal integrations references):
 
 1) Converting .mp4 to .mp3 via Python - http://andyp123.blogspot.in/2013/01/python-script-to-convert-mp4-video-to.html
+
+2) More on gdata and google photo integration > https://developers.google.com/picasa-web/docs/1.0/developers_guide_python
+
+3) A lot of ML docs > https://github.com/kjw0612/awesome-deep-vision/blob/master/README.md
 
 [ Will keep updating more :) ] 
