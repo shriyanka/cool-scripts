@@ -1,4 +1,9 @@
-#fire base tutorial example
+"""
+Script: fire base tutorial example
+Usage: Make sure you have firebase application registered
+Lib : Find the firebase tar file in libs/ section
+Tools: firebase python package
+"""
 
 from firebase import firebase
 firebase = firebase.FirebaseApplication('https://coolscript.firebaseio.com', None)

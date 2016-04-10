@@ -1,3 +1,8 @@
+'''
+Dividing the screen in two halfs one for vlc media and other any other application.
+The two screens are fixed and can be multitasked simultaneously.
+'''
+
 #v::
 IfWinExist ahk_pid %PID%
 {

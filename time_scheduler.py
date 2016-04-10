@@ -1,4 +1,8 @@
-# Before begining install pydub and keep a song renamed as ring.mp3 in your root folder containing this script
+"""
+Script: To create a time notifier
+Usage: Before begining install pydub and keep a song renamed as ring.mp3 in your root folder containing this script
+Tools: Pydub for audio playbacks
+"""
 
 from pydub import AudioSegment
 from pydub.playback import play

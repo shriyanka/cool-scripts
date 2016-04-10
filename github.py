@@ -1,3 +1,9 @@
+"""
+Script: Script showing github integration
+Usage: Make sure you have github application registered
+Tools: Python, Requests
+"""
+
 import requests
 import time
 import json

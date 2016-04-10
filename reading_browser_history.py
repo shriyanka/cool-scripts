@@ -1,5 +1,5 @@
 """
-Project: Sentiment Analysis using Background History data
+Script: Sentiment Analysis using Background History data
 Module 1: Reading the User History table and storing the links in History.txt
 Module 2: Opening each urls and fetching the raw text seperatly in each file as __url__name.txt
 Tools: Python, Urlfetch, Subprocess-for making comand line request

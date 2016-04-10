@@ -1,3 +1,10 @@
+"""
+Script: To have real time selfie while you work. Absolutely Random :P
+Usage: Make sure you have VLC and a working webcam
+Tools: Python, Subprocess
+"""
+
+
 import subprocess
 import random
 import time

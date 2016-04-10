@@ -1,4 +1,8 @@
-# Basic example that can be modified to make a perfect collage using python
+"""
+Script: Basic example that can be modified to make a perfect collage using python
+Usage: Make sure you have PIL in your python path
+Tools: PIL
+"""
 
 from images2gif import writeGif
 from PIL import Image
