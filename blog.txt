@@ -6,4 +6,6 @@
 
 3) A lot of ML docs > https://github.com/kjw0612/awesome-deep-vision/blob/master/README.md
 
+4) http://gitxiv.com/posts/jG46ukGod8R7Rdtud/a-neural-algorithm-of-artistic-style
+
 [ Will keep updating more :) ] 
